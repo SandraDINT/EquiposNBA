@@ -25,7 +25,7 @@
                            HorizontalAlignment="Center"
                            FontSize="30"
                            FontWeight="Bold"
-                           TextWrapping="Wrap" />
+                           TextWrapping="NoWrap" />
                 <WrapPanel HorizontalAlignment="Center">
                     <Image Source="Assets/14_lakers.png"
                            Width="150" />
