@@ -59,7 +59,7 @@
                            HorizontalAlignment="Center"
                            FontSize="30"
                            FontWeight="Bold"
-                           TextTrimming="None" 
+                           TextWrapping="Wrap" 
                            Foreground="White"/>
                 <WrapPanel HorizontalAlignment="Center">
                     <Image Source="Assets/13_heat.png"
