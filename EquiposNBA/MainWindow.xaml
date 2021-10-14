@@ -7,6 +7,24 @@
         mc:Ignorable="d"
         Title="Equipos de la NBA" Height="400" Width="800"
         Icon= "Assets/icon.ico">
+    <Window.Resources>
+        <!--Estilos para los textblock-->
+        <Style TargetType="{x:Type TextBlock}">
+            <Setter Property="FontSize"
+                    Value="30" />
+            <Setter Property="FontWeight"
+                    Value="Bold" />
+        </Style>
+        <!--Estilos para los bordes-->
+        <Style TargetType="{x:Type Border}">
+            <Setter Property="BorderBrush"
+                    Value="Black" />
+            <Setter Property="BorderThickness"
+                    Value="3" />
+            <Setter Property="CornerRadius"
+                    Value="3" />
+        </Style>
+    </Window.Resources>
     <StackPanel>
         <Border BorderBrush="Black" 
                 BorderThickness="4"
